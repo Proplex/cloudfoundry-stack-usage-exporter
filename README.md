@@ -15,11 +15,11 @@ Take a look at `manifest.yml`: you'll need three bits of information:
 `CF_USERNAME` is an UAA account that has at minimum read-only permissions to all of the `/v3/apps` endpoint  
 `CF_PASSWORD` is the password to the account above.  
 
-Optionally, you can also configure:
-`SCRAPE_INTERVAL` which dictates how often the background task of refreshing the metric occurs. By default it's 300 seconds.
-`LOG_LEVEL` which controls verbosity for debugging purposes. By default it's INFO (pretty quiet)
-`SKIP_SSL_VERIFY` for whether or not to skip SSL validation. By default it's False (validates SSL)
-`INCLUDE_INVALID_STACKS` to control whether or not we report stacks that are invalid (i.e typos from developers)
+Optionally, you can also configure:  
+`SCRAPE_INTERVAL` which dictates how often the background task of refreshing the metric occurs. By default it's 300 seconds.  
+`LOG_LEVEL` which controls verbosity for debugging purposes. By default it's INFO (pretty quiet)  
+`SKIP_SSL_VERIFY` for whether or not to skip SSL validation. By default it's False (validates SSL)  
+`INCLUDE_INVALID_STACKS` to control whether or not we report stacks that are invalid (i.e typos from developers)  
 
 
 An example CF push:
